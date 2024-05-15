@@ -2,12 +2,8 @@
 import os
 
 from langchain_community.graphs import Neo4jGraph
-os.environ["NEO4J_URI"] = "neo4j+s://ee3ec572.databases.neo4j.io"
-os.environ["NEO4J_USERNAME"] = "neo4j"
-os.environ["NEO4J_PASSWORD"] = "Is80K46La8CdVQY8ZoUjYE8wWJBu0xeufkJhg_P9BCQ"
-# AURA_INSTANCEID=ee3ec572
-# AURA_INSTANCENAME=Instance01
 
+import new4j
 # graph = Neo4jGraph()
 
 from langchain_experimental.graph_transformers import LLMGraphTransformer
